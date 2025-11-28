@@ -16,7 +16,7 @@ Data base: for creating a database I will use MongoDB.
 
 System workflow:
 1.	Sense HAT reads humidity and temperature.
-2.	Raspberry Pi sends data to Blynk and My Computer.
+2.	Raspberry Pi sends data to Blynk and MongoDB.
 3.	Data stored in MongoDB for analyse.
 4.	Data is transferred to the Blynk Cloud using MQTT/HTTP protocols. 
 5.	Blynk dashboard shows: Humidity level, Temperature and Alert status.
